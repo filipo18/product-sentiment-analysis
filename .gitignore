@@ -1,0 +1,74 @@
+venv/
+.venv/
+env/
+ENV/
+
+# Python byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# Type checking
+.mypy_cache/
+.pyre/
+
+# Linters / tooling
+.ruff_cache/
+dmypy.json
+.dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# App data / temp
+data/
+tmp/
+temp/
+*.sqlite3
+
+# Streamlit
+.streamlit/
